@@ -48,10 +48,11 @@ IG_PASSWORD=<instagram-password>
 ```
 
 ## Installation
-
+```
 git clone https://github.com/<your-username>/daily-quote-bot.git
 cd daily-quote-bot
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
