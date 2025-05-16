@@ -161,4 +161,3 @@ Contact: [GitHub Profile](https://github.com/varunredd)
 
 ---
 
-> 🎯 Want daily content on autopilot? Fork this repo, add your keys, and let automation do the rest!
