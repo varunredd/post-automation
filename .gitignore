@@ -1,0 +1,13 @@
+# Ignore macOS junk
+.DS_Store
+
+# Python virtualenv
+.venv/
+
+# Bot runtime/output
+.env
+config/
+*.REMOVE_ME
+background.jpg
+daily-quote.jpg
+fonts/
