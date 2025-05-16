@@ -45,6 +45,7 @@ GEMINI_API_KEY=<your-gemini-api-key>
 UNSPLASH_ACCESS_KEY=<your-unsplash-access-key>
 IG_USERNAME=<instagram-username>
 IG_PASSWORD=<instagram-password>
+```
 
 ## Installation
 
