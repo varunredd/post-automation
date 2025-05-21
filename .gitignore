@@ -11,3 +11,4 @@ config/
 background.jpg
 daily-quote.jpg
 fonts/
+.DS_Store
