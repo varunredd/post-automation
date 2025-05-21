@@ -6,7 +6,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import random
 from instabot import Bot
-
+from instagrapi import Client
 
 
 # Load API keys
@@ -84,7 +84,10 @@ if __name__ == "__main__":
     bg_path = get_blurred_background(topic="inspiration")
     create_image_with_quote(quote, background_path=bg_path)
 
-    bot = Bot(base_path="/tmp/instabot/")
+    
 
-    bot.login(username=USERNAME, password=PASSWORD)
-    bot.upload_photo("daily-quote.jpg", caption="💡 Stay inspired! #motivation")
+    cl = Client()
+    print(USERNAME)
+    print(PASSWORD)
+    cl.login(USERNAME, PASSWORD)
+    cl.photo_upload("daily-quote.jpg", caption="💡 Stay inspired!")
