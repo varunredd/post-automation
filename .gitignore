@@ -10,7 +10,6 @@ config/
 *.REMOVE_ME
 background.jpg
 daily-quote.jpg
-fonts/
 .DS_Store
 .DS_Store
 .jpg
